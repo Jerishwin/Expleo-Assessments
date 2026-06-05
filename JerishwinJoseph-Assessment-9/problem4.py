@@ -17,6 +17,6 @@ for i in range(0,n):
 
 print("USN\t|Name\t|Username\t|Domain")
 for r in dp.rec:
-    print(r[0],r[1],dp.Username[1],dp.domain[1])
+    print(r[0],r[1])
 
 

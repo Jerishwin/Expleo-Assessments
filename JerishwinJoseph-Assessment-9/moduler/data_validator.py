@@ -12,7 +12,7 @@ def validate_email(email):
 
 def validate_phone(phone):
     pattern = r'[69]\d{9}'
-    res = re.match(pattern, phone)
+    res = re.match(pattern, str(phone))
     if not res:
         raise InvalidFieldError("Not a Valid Phone Number")
     print("Valid Phone Number")

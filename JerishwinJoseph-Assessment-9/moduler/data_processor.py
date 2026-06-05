@@ -1,7 +1,8 @@
 import re
-rec=()
+rec = () 
 def record(usn,name,email,phone):
-    rec+=(usn,name,email,phone)
+    global rec
+    rec+=((usn,name,email,phone),)
 
 Username=()
 domain=()
