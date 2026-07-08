@@ -10,7 +10,7 @@ export class BasePage{
         await element.click()
     }
 
-    async fill(element:Locator,string:string){
+    async fill(element:Locator,string:string | undefined){
         await element.fill(string)
     }
 

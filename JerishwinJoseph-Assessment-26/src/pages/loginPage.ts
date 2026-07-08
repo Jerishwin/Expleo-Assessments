@@ -19,11 +19,11 @@ export class LoginPage extends BasePage{
         this.errorMsg2 = this.page.locator("//span[@data-valmsg-for='Email']/span")
     }
 
-    async fillEmail(string:string){
+    async fillEmail(string:string | undefined){
         this.fill(this.email,string)
     }
 
-    async fillPass(string:string){
+    async fillPass(string:string | undefined){
         this.fill(this.pass,string)
     }
 
