@@ -1,0 +1,4 @@
+type,fname,lname,email,pass
+register,Jeri,Jose,jeri,123456
+login,,,jeri1234,123456
+login,,,jeri12,123456

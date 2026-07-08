@@ -1,0 +1,427 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "invalid Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3710399,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'navigate')\n    at World.<anonymous> (file:///E:/JerishwinJoseph-Assessment-26/src/steps/register.step.ts:5:23)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:32:21)\n    at E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:52:24\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)\n    at runInTestCaseScope (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\scope\\test_case_scope.ts:15:24)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:51:44)\n    at async TestCaseRunner.invokeStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:144:12)\n    at async TestCaseRunner.runStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:357:20)\n    at async E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:248:34\n    at async TestCaseRunner.aroundTestStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:179:28)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the register link",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user fills the email as \"jeri\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user fills the password as \"123456\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the erroe message is shown as \"Please enter a valid email address.\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "invalid Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 181500,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'navigate')\n    at World.<anonymous> (file:///E:/JerishwinJoseph-Assessment-26/src/steps/register.step.ts:5:23)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:32:21)\n    at E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:52:24\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)\n    at runInTestCaseScope (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\scope\\test_case_scope.ts:15:24)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:51:44)\n    at async TestCaseRunner.invokeStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:144:12)\n    at async TestCaseRunner.runStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:357:20)\n    at async E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:248:34\n    at async TestCaseRunner.aroundTestStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:179:28)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the register link",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user fills the email as \"jeri12asddd@gmail.com\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user fills the password as \"123456\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the erroe message is shown as \"No customer account found\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "invalid Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 178299,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'navigate')\n    at World.<anonymous> (file:///E:/JerishwinJoseph-Assessment-26/src/steps/register.step.ts:5:23)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:32:21)\n    at E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:52:24\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)\n    at runInTestCaseScope (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\scope\\test_case_scope.ts:15:24)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:51:44)\n    at async TestCaseRunner.invokeStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:144:12)\n    at async TestCaseRunner.runStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:357:20)\n    at async E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:248:34\n    at async TestCaseRunner.aroundTestStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:179:28)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the register link",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user fills the email as \"jeri1234@gmail.com\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user fills the password as \"12345678\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the erroe message is shown as \"The credentials provided are incorrect\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;valid-login",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "valid Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 403200,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'navigate')\n    at World.<anonymous> (file:///E:/JerishwinJoseph-Assessment-26/src/steps/register.step.ts:5:23)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:32:21)\n    at E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:52:24\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)\n    at runInTestCaseScope (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\scope\\test_case_scope.ts:15:24)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:51:44)\n    at async TestCaseRunner.invokeStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:144:12)\n    at async TestCaseRunner.runStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:357:20)\n    at async E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:248:34\n    at async TestCaseRunner.aroundTestStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:179:28)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the register link",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user fills the valid credentials",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user should see mail on home page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-user;register-a-new-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register a new User",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 207900,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'navigate')\n    at World.<anonymous> (file:///E:/JerishwinJoseph-Assessment-26/src/steps/register.step.ts:5:23)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:32:21)\n    at E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:52:24\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)\n    at runInTestCaseScope (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\scope\\test_case_scope.ts:15:24)\n    at Object.run (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:51:44)\n    at async TestCaseRunner.invokeStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:144:12)\n    at async TestCaseRunner.runStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:357:20)\n    at async E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:248:34\n    at async TestCaseRunner.aroundTestStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:179:28)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the register link",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the User fill the valid details in the register page",
+            "match": {
+              "location": "src\\steps\\register.step.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\steps\\register.step.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "registraion completed message should be visible",
+            "match": {
+              "location": "src\\steps\\register.step.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register User",
+    "tags": [],
+    "uri": "src\\features\\register.feature"
+  }
+]
