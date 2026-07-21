@@ -13,8 +13,8 @@ module.exports = {
 
     format: [
       "progress",
-      "json:reports/cucumber-report.json",
-      "html:reports/cucumber-report.html"
+      "json:report/cucumber-report.json",
+      "html:report/cucumber-report.html"
     ],
 
     parallel: 1

@@ -1,0 +1,527 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 259721400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3218841799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the login link",
+            "match": {
+              "location": "src\\steps\\login.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003930200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user fills the email as \"jeri\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15875700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user fills the password as \"123456\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13773699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10392299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the erroe message is shown as \"Please enter a valid email address.\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:28"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5047703800,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//span[@data-valmsg-for=\\'Email\\']/span')\nExpected substring: \u001b[32m\"Please enter a valid email address.\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//span[@data-valmsg-for=\\'Email\\']/span')\u001b[22m\n\u001b[2m    - waiting for\" https://demowebshop.tricentis.com/login\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://demowebshop.tricentis.com/login\"\u001b[22m\n\n    at captureRawStack (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContainText (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (E:\\JerishwinJoseph-Assessment-26\\src\\steps\\login.step.ts:30:48)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284056899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 224913400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3835145700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the login link",
+            "match": {
+              "location": "src\\steps\\login.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 691250800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user fills the email as \"jeri12asddd@gmail.com\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4994600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user fills the password as \"123456\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2572299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1699599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the erroe message is shown as \"No customer account found\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 726226899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99816599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 214175200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2702479799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the login link",
+            "match": {
+              "location": "src\\steps\\login.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663691699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user fills the email as \"jeri1234@gmail.com\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1730299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user fills the password as \"12345678\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3147000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3111400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the erroe message is shown as \"The credentials provided are incorrect\"",
+            "match": {
+              "location": "src\\steps\\login.step.ts:28"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5032944899,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//div[@class=\\'validation-summary-errors\\']/child::*[2]')\nTimeout: 5000ms\n\u001b[32m- Expected substring  - 1\u001b[39m\n\u001b[31m+ Received string     + 2\u001b[39m\n\n\u001b[32m- The credentials provided are incorrect\u001b[39m\n\u001b[31m+ No customer account found\u001b[39m\n\u001b[31m+\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[@class=\\'validation-summary-errors\\']/child::*[2]')\u001b[22m\n\u001b[2m    - waiting for\" https://demowebshop.tricentis.com/login\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://demowebshop.tricentis.com/login\"\u001b[22m\n\u001b[2m    11 × locator resolved to <ul>…</ul>\u001b[22m\n\u001b[2m       - unexpected value \"No customer account found\u001b[22m\n\u001b[2m\"\u001b[22m\n\n    at captureRawStack (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContainText (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (E:\\JerishwinJoseph-Assessment-26\\src\\steps\\login.step.ts:34:48)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 203434199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;valid-login",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "valid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 272362300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2926207299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the login link",
+            "match": {
+              "location": "src\\steps\\login.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 649247100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user fills the valid credentials",
+            "match": {
+              "location": "src\\steps\\login.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6530200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clicks the login Button",
+            "match": {
+              "location": "src\\steps\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2919300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user should see mail on home page",
+            "match": {
+              "location": "src\\steps\\login.step.ts:43"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5023601199,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//div[@class=\\'header-links\\']/ul/li[1]/a')\nExpected substring: \u001b[32m\"jeri1234\"\u001b[39m\nReceived string:    \u001b[31m\"Register\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[@class=\\'header-links\\']/ul/li[1]/a')\u001b[22m\n\u001b[2m    2 × locator resolved to <a href=\"/register\" class=\"ico-register\">Register</a>\u001b[22m\n\u001b[2m      - unexpected value \"Register\"\u001b[22m\n\u001b[2m    - waiting for\" https://demowebshop.tricentis.com/login\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://demowebshop.tricentis.com/login\"\u001b[22m\n\u001b[2m    11 × locator resolved to <a href=\"/register\" class=\"ico-register\">Register</a>\u001b[22m\n\u001b[2m       - unexpected value \"Register\"\u001b[22m\n\n    at captureRawStack (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContainText (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (E:\\JerishwinJoseph-Assessment-26\\src\\steps\\login.step.ts:44:37)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 188491000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-user;register-a-new-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register a new User",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 272433900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the User is on the home page of the application",
+            "match": {
+              "location": "src\\steps\\register.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2724970500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the register link",
+            "match": {
+              "location": "src\\steps\\register.step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760935700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the User fill the valid details in the register page",
+            "match": {
+              "location": "src\\steps\\register.step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257393400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicks the register button",
+            "match": {
+              "location": "src\\steps\\register.step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79322800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "registraion completed message should be visible",
+            "match": {
+              "location": "src\\steps\\register.step.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5009545300,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//div[@class=\\'result\\']')\nExpected substring: \u001b[32m\"Your registration completed\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[@class=\\'result\\']')\u001b[22m\n\n    at captureRawStack (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContainText (E:\\JerishwinJoseph-Assessment-26\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (E:\\JerishwinJoseph-Assessment-26\\src\\steps\\register.step.ts:22:46)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 213511999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register User",
+    "tags": [],
+    "uri": "src\\features\\register.feature"
+  }
+]

@@ -8,7 +8,7 @@ const users: user[]=readRegister()
 
 const login = users.find(user=>user.type ==='login')
 
-Given('the user clicks the register link',async function (this:CustomWorld) {
+Given('the user clicks the login link',async function (this:CustomWorld) {
     await this.homepage.clickLogin()
 
 });
@@ -36,10 +36,10 @@ Then('the erroe message is shown as {string}',async function (this:CustomWorld,s
 });
 
 When('the user fills the valid credentials',async function (this:CustomWorld) {
-    await this.loginpage.fillEmail(login?.email)
-    await this.loginpage.fillPass(login?.pass)
+    await this.loginpage.fillEmail(login?.email??"")
+    await this.loginpage.fillPass(login?.pass??"")
 });
 
 Then('the user should see mail on home page',async function (this:CustomWorld) {
-    await expect(this.homepage.acc).toContainText(login?.email)
+    await expect(this.homepage.acc).toContainText(login?.email??"")
 });

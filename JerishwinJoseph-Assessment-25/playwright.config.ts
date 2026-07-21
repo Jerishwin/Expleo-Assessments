@@ -1,10 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './Task1-3',
+  testDir: './tests',
 
   fullyParallel: true,
-  reporter: 'html',
+  reporter: [['html',{open:'always'}]],
 
   use: {
     browserName:'chromium',
@@ -12,6 +12,20 @@ export default defineConfig({
     video:'on',
     screenshot:'on'
   },
+  projects: [
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
+    {
+      name: 'webkit',
+      use: { ...devices['Desktop Safari'] },
+    },
+  ],
 
 
 });
