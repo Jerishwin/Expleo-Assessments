@@ -2,7 +2,7 @@ Feature: Login
 
     Background:
         Given the User is on the home page of the application
-        And the user clicks the register link
+        And the user clicks the login link
 
     Scenario Outline: invalid Login
         When the user fills the email as "<email>"

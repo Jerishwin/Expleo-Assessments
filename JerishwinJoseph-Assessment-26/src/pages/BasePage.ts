@@ -10,11 +10,14 @@ export class BasePage{
         await element.click()
     }
 
-    async fill(element:Locator,string:string | undefined){
+    async fill(element:Locator,string:string){
         await element.fill(string)
     }
 
     async navigate(){
-        await this.page.goto("https://demowebshop.tricentis.com/")
+        await this.page.goto("https://demowebshop.tricentis.com/",{
+            waitUntil: "domcontentloaded",
+            timeout: 30000
+        })
     }
 }

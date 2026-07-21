@@ -1,4 +1,4 @@
-import { Before,After,BeforeAll,AfterAll} from '@cucumber/cucumber'
+import { Before,After,BeforeAll,AfterAll, setDefaultTimeout} from '@cucumber/cucumber'
 import{chromium,Browser} from '@playwright/test'
 import{CustomWorld}from '../worlds/customWorld'
 import{BasePage}from '../pages/BasePage'
@@ -6,7 +6,7 @@ import { HomePage } from '../pages/homePage';
 import { RegisterPage } from '../pages/registerPage';
 import { LoginPage } from '../pages/loginPage';
 
-
+setDefaultTimeout(60000);
 let browser : Browser
 
 BeforeAll(async()=>{

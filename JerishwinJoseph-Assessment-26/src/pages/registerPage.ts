@@ -30,11 +30,11 @@ export class RegisterPage extends BasePage{
     }
 
     async fillDetails(){
-        await this.fill(this.fname,register?.fname)
-        await this.fill(this.lname,register?.lname)
+        await this.fill(this.fname,register?.fname??"")
+        await this.fill(this.lname,register?.lname??"")
         await this.fill(this.email,"jeri" + Date.now()+"@gmail.com")
-        await this.fill(this.password,register?.pass)
-        await this.fill(this.confirmPassword,register?.pass)
+        await this.fill(this.password,register?.pass??"")
+        await this.fill(this.confirmPassword,register?.pass??"")
     }
 
     async clickRegister(){
